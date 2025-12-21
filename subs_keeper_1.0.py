@@ -167,7 +167,7 @@ def main():
         "  # Sort by response size and remove duplicates\n"
         "  subs_validator input.txt --sort-size --dedup-size\n\n"
         "  # Through proxy with tracing id\n"
-        "  subs_validator input.txt -p http://127.0.0.1:8080" --id
+        "  subs_validator input.txt -p http://127.0.0.1:8080 --id"
     )
 
     args = parser.parse_args()
